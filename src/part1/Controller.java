@@ -1,4 +1,4 @@
-//Pull request
+
 package part1;
 
 import com.sun.media.jfxmediaimpl.platform.Platform;

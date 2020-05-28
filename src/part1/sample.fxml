@@ -11,6 +11,6 @@
     <TextArea fx:id="txtArea"  GridPane.rowIndex="0" editable="false"/>
     <TextField fx:id="txtField" text="" GridPane.rowIndex="1" onKeyPressed="#txtFieldOnKeyPressed" />
     <Button fx:id="btnAdd" text="Add" GridPane.rowIndex="2" onAction="#btnAddOnAction" />
-    //Pull request
+
 </GridPane>
 
