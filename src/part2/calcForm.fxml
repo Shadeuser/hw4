@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="part2.CalcController">
+    <children>
+        <HBox alignment="TOP_CENTER">
+            <children>
+                <TextField fx:id="txtFieldTransactions" editable="false"/>
+            </children>
+        </HBox>
+        <HBox alignment="TOP_CENTER">
+            <children>
+                <TextField fx:id="txtFieldResult" editable="false"/>
+            </children>
+        </HBox>
+        <HBox alignment="TOP_CENTER">
+            <children>
+                <Button fx:id="btnBackspace" text="&lt;--" onAction="#onActionBackspace"/>
+                <Button fx:id="btnC" text="C" onAction="#onActionBtnC"/>
+                <Button fx:id="btnDevision" text="/" onAction="#onActionOperations"/>
+            </children>
+        </HBox>
+        <HBox/>
+        <HBox alignment="TOP_CENTER">
+            <children>
+                <Button text="1" onAction="#onActionNumbers"/>
+                <Button text="2" onAction="#onActionNumbers"/>
+                <Button text="3" onAction="#onActionNumbers"/>
+                <Button fx:id="btnMult" text="*" onAction="#onActionOperations"/>
+            </children>
+        </HBox>
+        <HBox alignment="TOP_CENTER">
+            <children>
+                <Button fx:id="btn4" text="4" onAction="#onActionNumbers"/>
+                <Button fx:id="btn5" text="5" onAction="#onActionNumbers"/>
+                <Button fx:id="btn6" text="6" onAction="#onActionNumbers"/>
+                <Button fx:id="btnPlus" text="+" onAction="#onActionOperations"/>
+            </children>
+        </HBox>
+        <HBox alignment="TOP_CENTER">
+            <children>
+                <Button fx:id="btn7" text="7" onAction="#onActionNumbers"/>
+                <Button fx:id="btn8" text="8" onAction="#onActionNumbers"/>
+                <Button fx:id="btn9" text="9" onAction="#onActionNumbers"/>
+                <Button fx:id="btnMinus" text="-" onAction="#onActionOperations"/>
+            </children>
+        </HBox>
+        <HBox alignment="TOP_CENTER">
+            <children>
+                <Button fx:id="btn0" text="0" onAction="#onActionNumbers"/>
+                <Button fx:id="btnDot" text=" . " onAction="#onActionNumbers"/>
+                <Button fx:id="btnEqually" text="=" onAction="#onActionOperations"/>
+            </children>
+        </HBox>
+    </children>
+    <stylesheets>
+        <URL value="@/part2/css/styles.css"/>
+
+
+    </stylesheets>
+</VBox>

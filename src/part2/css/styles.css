@@ -1,0 +1,16 @@
+.button {
+
+    -fx-font-size: 45;
+    -fx-font-weight: BOLD;
+    -fx-pref-width: 100;
+}
+#btn0 {
+    -fx-pref-width: 200;
+}
+#btnBackspace {
+    -fx-pref-width:200
+}
+.text-field {
+    -fx-font-size: 30;
+    -fx-pref-width: 400;
+}

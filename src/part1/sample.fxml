@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<GridPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="part1.Controller" >
+
+    <TextArea fx:id="txtArea"  GridPane.rowIndex="0" editable="false"/>
+    <TextField fx:id="txtField" text="" GridPane.rowIndex="1" onKeyPressed="#txtFieldOnKeyPressed" />
+    <Button fx:id="btnAdd" text="Add" GridPane.rowIndex="2" onAction="#btnAddOnAction" />
+
+</GridPane>
+
